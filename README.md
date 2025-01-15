@@ -1,6 +1,8 @@
 # Visual Inertial SLAM
 ## Overview
 This project is a part of coursework Sensing and Estimation done in Spring 2023.
+
+
 This code implements EKF SLAM for a car that is equipped with stereo camera and IMU sensors. Motion model using IMU measurements was used to localise the robot and the image features collected from stereo camera was used to map the environment. 
 
 We have 2 sets of data obtained from a mobile robot. All the data was time synced beforehand. Each sets contain the following data:
